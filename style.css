@@ -1,0 +1,95 @@
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 85px;
+}
+
+.france {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.spain {
+    position: relative;
+    top: 67px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card {
+    width: 350px;
+    height: 730px;
+    background-color: #E1EDE6;
+    font-family: "Raleway", sans-serif;
+}
+
+.painting {
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.painter {
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 18;
+    color: #86928B;
+}
+
+.title {
+    color: #2C2D35;
+    position: relative;
+    top: 28px;
+    left: 20px;
+    font-weight:500;
+    font-size: 30;
+}
+
+.description {
+    color: #2C2D35;
+    position: relative;
+    left: 20px;
+    top: 15px;
+    font-size:larger;
+    font-weight: 500;
+    font-size: 18;
+}
+
+.price {
+    position: relative;
+    top: 51px;
+    left: 20px;
+    font-size: 24;
+    font-weight: 400;
+    color:#598D66;
+}
+
+.btn {
+    font-family: "Raleway", sans-serif;
+    width: 310px;
+    height: 65px;
+    position: relative;
+    top: 75px;
+    left: 20px;
+    gap: 6px;
+    border-width: 1px;
+    padding-top: 20px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    border: 1px solid #7bad88;
+    cursor: pointer;
+    background-color: #E1EDE6;
+    color: #598D66;
+    font-size: 20px;
+    font-weight: 400;
+}
