@@ -1,0 +1,127 @@
+.body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 36px;
+}
+
+.card_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    text-align: center;
+    vertical-align: bottom;
+    color: #2E363E;
+}
+
+.card {
+    width: 380px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.image {
+    width: 380px;
+    height: 245px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card_bottom {
+    border: 1px solid #F2F6FA;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-width: 1px;
+    padding-top: 30px;
+    padding-right: 44px;
+    padding-bottom: 50px;
+    padding-left: 44px;
+    height: 257px;
+}
+
+.buy_btn {
+    width: 163px;
+    height: 68px;
+    gap: 10px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    border-radius: 8px;
+    background-color: #FED84C;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #2E363E;
+    border: none;
+    position: relative;
+    top: 50px;
+}
+
+.card_desc {
+    gap: 12px;
+    color: #2E363E;
+}
+
+.product {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 143%;
+    letter-spacing: 0%;
+    color: #2E363E;
+    position: relative;
+}
+
+.price {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #434B53;
+    top: 30px;
+}
+
+.berry {
+    position: absolute;
+    width: 250px;
+    height: 256px;
+    rotate: 62.54;
+    opacity: 1;
+    top: 210px;
+    left: -20px;
+}
+
+.leaf1 {
+    position: absolute;
+    width: 205px;
+    height: 209px;
+    top: 1000px;
+    left: 1280px;
+    rotate: 180;
+}
+
+.leaf2 {
+    position: absolute;
+    width: 160px;
+    height: 169px;
+    top: 1381px;
+    left: 10px;
+}
