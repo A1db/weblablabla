@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "impFont";
+    src: url(./RampartOne-Regular.ttf);
+}
+
+.coolfont {
+  font-family: "Rubik Maze", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.importedFont {
+    font-family: "impFont", monospace;
+}
