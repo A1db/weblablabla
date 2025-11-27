@@ -1,0 +1,144 @@
+.anim1 {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, black, beige);
+    animation: rotate 12s infinite;
+    margin-bottom: 25px;
+}
+
+@keyframes rotate {
+    0% {
+        rotate: 0deg;
+    }
+    25% {
+        rotate: 90deg;
+    }
+    50% {
+        rotate: 180deg;
+    }
+    75% {
+        rotate: 270deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
+    
+}
+/* Поворачивает див на 360 в 4 движения */
+
+
+
+
+.anim2 {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, black, indigo);
+    animation: scale 2s infinite;
+    margin-bottom: 25px;
+}
+
+@keyframes scale {
+    0% {
+        scale: 0;
+    }
+    32% {
+        scale: 1;
+    }
+    50% {
+        scale: 1.25;
+    }
+    55% {
+        scale: 1;
+    }
+    85% {
+        scale: 1;
+    }
+    92% {
+        scale: 0;
+    }
+    100% {
+        scale: 0;
+    }
+}
+/* Случайно увиеличивает див (Я хотел сделать баунс, но не получилось) */
+
+
+
+
+.anim3 {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, black, limegreen);
+    animation: translate 5s infinite;
+    margin-bottom: 25px;
+}
+
+@keyframes translate {
+    0% {
+        translate: 0px;
+    }
+    20% {
+        translate: 50px 30px;
+    }
+    40% {
+        translate: 100px 0px;
+    }
+    60% {
+        translate: 150px 30px;
+    }
+    80% {
+        translate: 200px 0px;
+    }
+    100% {
+        translate: 0px 0px;
+    }
+
+}
+/* Квадрат двигается зиг загом */
+
+
+
+
+.anim4 {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, black, rgb(22, 146, 192));
+    animation: skew 3s infinite;
+    margin-bottom: 25px;
+}
+
+@keyframes skew {
+    0%, 20%, 40%, 60%, 80%, 100% {
+        transform: skew(0deg);
+    }
+    30% {
+        transform: skewX(40deg);
+    }
+    50% {
+        transform: skewX(-40deg);
+    }
+    70% {
+        transform: skewY(20deg);
+    }
+    90% {
+        transform: skewY(-15deg);
+    }
+}
+/* Квадрат мнут  */
+
+
+
+
+
+.transn {
+    background: moccasin;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    transition: transform 1s ease-in-out;
+}
+.transn:hover{
+    background: linear-gradient(200deg, moccasin, aliceblue);
+    cursor: pointer;
+    transform: perspective(60px) rotateY(-45deg);
+}
