@@ -16,7 +16,7 @@ body {
     }
 
 
-    .headr {
+    .logo__headr {
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 20px;
@@ -43,8 +43,8 @@ body {
         padding: 16px 15px;
     }
 
-    .menubtn {display:none;}
-    .menulist {width:0px;}
+    .menu__btn {display:none;}
+    .menu__list {width:0px;}
 
     .smallmenu {
         display: flex;
@@ -54,14 +54,14 @@ body {
         justify-content: space-between;
     }
 
-    .sandw {
+    .menu__sandw {
         width: initial;
         height: initial;
         align-self: center;
         cursor: pointer;
     }
 
-    .cart {
+    .menu__cart {
         display: initial;
         height: 22px;
         width: 22px;
@@ -70,9 +70,9 @@ body {
         cursor: pointer;
     }
 
-    .line {display: none;}
+    .header__line {display: none;}
 
-    .birb {display:none;}
+    .welcome__birb {display:none;}
 
     .welcome {
         justify-self: center;
@@ -98,7 +98,7 @@ body {
         cursor: default;
     }
 
-    .wcdesc {
+    .wctxt__wcdesc {
         margin-top: 20px;
         margin-bottom: 20px;
         font-family: 'Raleway', sans-serif;
@@ -109,7 +109,7 @@ body {
         cursor: default;
     }
 
-    .products {
+    .wctxt__products {
         width: 154px;
         height: 50px;
         margin-top: 20px;
@@ -125,7 +125,7 @@ body {
     }
 
 
-    .reproduction {
+    .country__reproduction {
         margin-top: 60px;
         margin-bottom: 20px;
         font-family: 'Raleway', sans-serif;
@@ -141,14 +141,14 @@ body {
         margin-left: 15px;
     }
 
-    .btnchoice {
+    .country__btnchoice {
         display: flex;
         flex-flow: row;
         gap: 20px;
         margin-bottom: 20px;
     }
 
-    .activebtn {
+    .country__activebtn {
         border-radius: 20px;
         padding-top: 10px;
         padding-right: 20px;
@@ -165,7 +165,7 @@ body {
         cursor: pointer;
     }
 
-    .defaultbtn {
+    .country__defaultbtn {
         border-radius: 20px;
         padding-top: 10px;
         padding-right: 20px;
@@ -199,14 +199,14 @@ body {
         cursor: default;
     }
 
-    .painting {
+    .card__painting {
         width: 250px;
         height: 250px;
         object-fit: cover;
         margin-bottom: 15px;
     }
 
-    .painter {
+    .box__painter {
         font-family: 'Raleway', sans-serif;
         font-weight: 400;
         font-size: 16px;
@@ -214,7 +214,7 @@ body {
         color: #86928B;
     }
 
-    .title {
+    .box__title {
         margin-top: 10px;
         margin-bottom: 10px;
         font-family: 'Raleway', sans-serif;
@@ -223,14 +223,14 @@ body {
         color: #2C2D35;
     }
 
-    .description {
+    .box__description {
         font-family: 'Raleway', sans-serif;
         font-weight: 500;
         font-size: 16px;
         color: #2C2D35;
     }
 
-    .price {
+    .box__price {
         font-family: 'Raleway', sans-serif;
         font-weight: 400;
         font-size: 20px;
@@ -239,7 +239,7 @@ body {
         margin-bottom: 10px;
     }
 
-    .btn {
+    .box__btn {
         width: 250px;
         height: 50px;
         align-items: center;
@@ -285,7 +285,7 @@ body {
         cursor: pointer;
     }
 
-    .footr {
+    .footerLogo__footr {
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 20px;
@@ -293,21 +293,21 @@ body {
         margin: 0px;
     }
 
-    .phoneNumber {
+    .contacts__phoneNumber {
         font-weight: 500;
         font-size: 16px;
         color: #2C2D35;
         margin-bottom: 8px;
     }
 
-    .masterskaya {
+    .contacts__masterskaya {
         font-weight: 500;
         font-size: 16px;
         color: #86928B;
         grid-area: masterskaya;
     }
 
-    .linkTitle {
+    .linkList_title {
         font-weight: 500;
         font-size: 20px;
         color: #2C2D35;
@@ -329,18 +329,18 @@ body {
         cursor: pointer;
     }
 
-    .linkTitle2 {
+    .linkList_title2 {
         font-size: 20px;
         font-weight: 500;
         color: #2C2D35;
     }
-    .linkTitle3 {
+    .linkList_title3 {
         font-size: 20px;
         font-weight: 500;
         color: #2C2D35;
     }
 
-    .footerLine {
+    .footer__line {
         margin-right: 0px;
         margin-top: 0;
         margin-bottom: 20px;
@@ -399,7 +399,7 @@ body {
         justify-items: center;
     }
 
-    .line {
+    .header__line {
         justify-self: center;
         display: block;
         width: calc(100vw - 123px);
@@ -410,7 +410,7 @@ body {
         border: 1px solid #C3D1C6;
     }
 
-    .headr {
+    .logo__headr {
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 20px;
@@ -426,15 +426,15 @@ body {
         background-color: #E1EDE6;
     }
 
-    .sandw {
+    .menu__sandw {
         width: 0;
         height: 0;
     }
-    .cart {
+    .menu__cart {
         display: none;
     }
 
-    .menulist {
+    .menu__list {
         list-style: none;
         font-family: 'Raleway', sans-serif;
         display: flex;
@@ -449,12 +449,12 @@ body {
         padding-top: 1.5px;
     }
 
-    .menubtn {
+    .menu__btn {
         display: initial;
         cursor: pointer;
     }
 
-    .birb {
+    .welcome__birb {
         display: block;
         height: initial;
         width: initial;
@@ -482,7 +482,7 @@ body {
         color: #598D66;
     }
 
-    .wcdesc {
+    .wctxt__wcdesc {
         margin-top: 5px;
         font-family: 'Raleway', sans-serif;
         font-weight: 400;
@@ -498,7 +498,7 @@ body {
         margin-left: 0;
     }
 
-    .products {
+    .wctxt__products {
         font-family: 'Raleway', sans-serif;
         font-weight: 400;
         font-size: 18px;
@@ -511,7 +511,7 @@ body {
         color: #598D66;
     }
 
-    .btnchoice {
+    .country__btnchoice {
         gap: 32px;
     }
 
@@ -519,7 +519,7 @@ body {
         grid-template-columns: 1fr 1fr;
     }
 
-    .painting {
+    .card__painting {
         width: 200px;
         height: 250px;
     }
@@ -528,7 +528,7 @@ body {
         width: 200px;
     }
 
-    .btn {
+    .box__btn {
         width: 200px;
         height: 50px;
     }
@@ -545,7 +545,7 @@ body {
         padding-right: 33px;
     }
 
-    .footerLine {
+    .footer__line {
         width: calc(100vw - 66px);
     }
 
@@ -591,7 +591,7 @@ body {
         margin: 0px;
     }
 
-    .headr {
+    .logo__headr {
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 20px;
@@ -609,14 +609,14 @@ body {
         gap: 60px;
     }
 
-    .menulist {
+    .menu__list {
         list-style: none;
         display: flex;
         flex-flow: row;
         gap: 60px;
     }
 
-    .menubtn {
+    .menu__btn {
         font-family: 'Raleway', sans-serif;
         font-weight: 500;
         font-size: 18px;
@@ -625,7 +625,7 @@ body {
         white-space: nowrap;
     }
 
-    .menubtn img {
+    .menu__btn img {
         height: 22px;
         width: 22px;
     }
@@ -634,7 +634,7 @@ body {
         padding-top: 10px;
     }
 
-    .birb {
+    .welcome__birb {
         width: 330px;
         height: 380px;
     }
@@ -653,7 +653,7 @@ body {
         font-size: 40px;
     }
 
-    .wcdesc {
+    .wctxt__wcdesc {
         font-family: 'Raleway', sans-serif;
         font-weight: 500;
         font-size: 18px;
@@ -661,7 +661,7 @@ body {
         margin-top: 20px;
     }
 
-    .products {
+    .wctxt__products {
         width: 210px;
         height: 60px;
         gap: 6px;
@@ -673,12 +673,12 @@ body {
         font-size: 20px;
     }
 
-    .line {
+    .header__line {
         display: none;
     }
     .smallmenu  {opacity:0;}
-    .sandw {display: none;}
-    .cart {display: none;}
+    .menu__sandw {display: none;}
+    .menu__cart {display: none;}
 
     .country {
         display: flex;
@@ -690,11 +690,11 @@ body {
         padding-right: 0;
     }
 
-    .btnchoice {
+    .country__btnchoice {
         margin-bottom: 0px;
     }
 
-    .reproduction {
+    .country__reproduction {
         width: min-content;
         margin: 0px;
         align-self: center;
@@ -718,40 +718,40 @@ body {
         width: 290px;
     }
 
-    .painting {
+    .card__painting {
         width: 290px;
         height: 422px;
         align-items: start;
         margin-bottom: 20px;
     }
     
-    .painter {
+    .box__painter {
         font-family: 'Raleway', sans-serif;
         font-weight: 500;
         font-size: 18px;
     }
 
-    .title {
+    .box__title {
         font-family: 'Raleway', sans-serif;
         font-weight: 500;
         font-size: 30px;
         margin-bottom: 8px;
     }
 
-    .description {
+    .box__description {
         font-family: 'Raleway', sans-serif;
         font-weight: 500;
         font-size: 18px;
     }
 
-    .price {
+    .box__price {
         font-family: 'Raleway', sans-serif;
         font-weight: 500;
         font-size: 24px;
         margin-bottom: 20px;
     }
 
-    .btn {
+    .box__btn {
         width: 290px;
         height: 65px;
         margin-bottom: 0;
@@ -769,7 +769,7 @@ body {
     .linkList3 {
         justify-self: start;
     }
-    .phoneNumber {
+    .contacts__phoneNumber {
         font-size: 20px;
     }
     
@@ -782,7 +782,7 @@ body {
         "linkList linkList2 linkList3 details";
     }
 
-    .footerLine {
+    .footer__line {
         display: none;
     }
 
@@ -810,8 +810,8 @@ body {
         align-items: center;
     }
 
-    .sandw {display: none;}
-    .line {width:0px;}
+    .menu__sandw {display: none;}
+    .header__line {width:0px;}
 
     .logo {
         height: 35px;
@@ -825,7 +825,7 @@ body {
         height: 35px;
     }
 
-    .headr {
+    .logo__headr {
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 20px;
@@ -841,7 +841,7 @@ body {
         padding-left: 0px;
     }
 
-    .menulist {
+    .menu__list {
         list-style: none;
         display: flex;
         flex-flow: horizontal;
@@ -850,7 +850,7 @@ body {
         padding-right: 0px;
     }
 
-    .menubtn {
+    .menu__btn {
         cursor: pointer;
         font-family: 'Raleway', sans-serif;
         font-weight: 500;
@@ -860,12 +860,12 @@ body {
         white-space: nowrap;
     }
 
-    .menubtn img {
+    .menu__btn img {
         height: 22px;
         width: 22px;
     }
 
-    .birb {
+    .welcome__birb {
         width: 540px;
         height: 621px;
     }
@@ -878,14 +878,14 @@ body {
         align-self: center;
     }
 
-    .wcdesc {
+    .wctxt__wcdesc {
         font-family: 'Raleway', sans-serif;
         font-weight: 500;
         font-size: 18px;
         line-height: 150%;
     }
 
-    .products {
+    .wctxt__products {
         width: 225px;
         height: 65px;
         gap: 6px;
@@ -922,7 +922,7 @@ body {
         width: 1110px;
     }
 
-    .reproduction {
+    .country__reproduction {
         font-family: 'Raleway', sans-serif;
         font-weight: 500;
         font-size: 40px;
@@ -941,38 +941,38 @@ body {
         font-family: "Raleway", sans-serif;
     }
 
-    .painting {
+    .card__painting {
         width: 310px;
         height: 422px;
     }
 
-    .painter {
+    .box__painter {
         font-weight: 500;
         font-size: 18px;
         color: #86928B;
     }
 
-    .title {
+    .box__title {
         color: #2C2D35;
         font-weight:500;
         font-size: 30px;
 
     }
 
-    .description {
+    .box__description {
         color: #2C2D35;
         font-size:larger;
         font-weight: 500;
         font-size: 18;
     }
 
-    .price {
+    .box__price {
         font-size: 24;
         font-weight: 400;
         color:#598D66;
     }
 
-    .btn {
+    .box__btn {
         font-family: "Raleway", sans-serif;
         width: 310px;
         height: 65px;
@@ -990,7 +990,7 @@ body {
         font-weight: 400;
     }
 
-    .line {
+    .header__line {
         display: unset;
     }
     .smallmenu  {opacity:0;}
