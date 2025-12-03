@@ -1,0 +1,76 @@
+.parag {
+    font-family: 'Times New Roman', Times, serif;
+    color:  grey;
+    font-size: 25px;
+}
+
+.par1 {
+    font-family: 'Times New Roman', Times, serif;
+    color:  grey;
+    font-size: 25px;
+}
+
+.par1::before {
+    content: "Это текст дооооооо параграфа";
+    display: block;
+    margin-bottom: 5px;
+    color: green;
+}
+
+/* Я так понимаю, ::before это как 
+добавить текст + <br> к уже имеющемуся
+тексту. А еще ::first-line почему-то
+работает на ::before */
+
+.par1::after {
+    content: "Это текст пооооосле параграфа";
+    margin-top: 5px;
+    display: block;
+    color: maroon;
+}
+
+.parag::first-letter {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.parag::first-line {
+    font-weight: 600;
+    font-size: 28px;
+    color: black;
+}
+
+/* Из-за того, что я объяснил раньше
+(::first-line работает на ::before)
+я не стал добавлять к этому параграфу
+::before */
+
+
+
+.svaga::before {
+    content: "=======================";
+    display: block;
+}
+
+
+.deco {
+    margin-top: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(255, 236, 45);
+}
+
+.deco::before {
+    content: "↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓";
+    display: block;
+    color: rgb(0, 171, 194);
+}
+.deco::after {
+    content: "↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑";
+    display: block;
+    color: rgb(0, 171, 194);
+}
+.deco span {
+    color: rgb(0, 171, 194);
+    background: #fff;
+}
