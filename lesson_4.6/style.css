@@ -1,0 +1,264 @@
+body {
+    /* display: flex; */
+    margin-top: 50px;
+    font-family: 'DM Sans';
+}
+.bottom-cards {
+    display: flex;
+    gap: 150px;
+}
+
+.card {
+    width: 1300px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 53px;
+    padding: 40px;
+    border-radius: 32px;
+    margin-bottom: 100px;
+}
+
+.card-block {
+
+}
+
+.badge {
+    background-color: #191919;
+    color: #fff;
+    font-weight: 400;
+    font-size: 17px;
+    width: fit-content;
+    line-height: 27px;
+    padding: 0px 16px;
+    border-radius: 6px;
+    margin-bottom: 48.44px;
+}
+
+.episode {
+    color: #118DA8;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 17.56px;
+}
+
+.title {
+    font-weight: 400;
+    line-height: 70.4px;
+    font-size: 64px;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+.subtitle {
+    color: #ffffffb2;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 18px;
+}
+
+.btn {
+    background-color: #118DA8;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 15px 12px 20px;
+}
+
+.card2 {
+    background-color: #E1EDE6;
+    padding: 20px;
+    width: 250px;
+    cursor: default;
+    margin-top: 289px;
+}
+
+.card__painting {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.box__painter {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0%;
+    color: #86928B;
+}
+
+.box__title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #2C2D35;
+}
+
+.box__description {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2C2D35;
+}
+
+.box__price {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #598D66;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.box__btn {
+    width: 250px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #598D66;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #598D66;
+    background-color: inherit;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.card3 {
+    width: 380px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 221px;
+}
+
+.card__image {
+    width: 380px;
+    height: 245px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-bottom {
+    border: 1px solid #F2F6FA;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-width: 1px;
+    padding-top: 30px;
+    padding-right: 44px;
+    padding-bottom: 50px;
+    padding-left: 44px;
+    height: 257px;
+}
+
+.buy-menu__btn--buy {
+    width: 163px;
+    height: 68px;
+    gap: 10px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    border-radius: 8px;
+    background-color: #FED84C;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #2E363E;
+    border: none;
+    position: relative;
+    top: 50px;
+}
+
+.card-desc {
+    gap: 12px;
+    color: #2E363E;
+}
+
+.card-desc__product {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 143%;
+    letter-spacing: 0%;
+    color: #2E363E;
+    position: relative;
+}
+
+.price {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #434B53;
+    top: 30px;
+}
+
+.card4 {
+    margin-top: 403px;
+    background-color: #0C0B15;
+    padding: 20px;
+    padding-left: 26.5px;
+    cursor: default;
+    width: 330px;
+    border-radius: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18.3px;
+}
+
+.header img {
+    align-self: start;
+}
+
+.pfp {
+    background-color: #06152B;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.abt {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-bottom: 24.37px;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #809FB8;
+    margin-bottom: 26.63px;
+}
+
+.desc {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #809FB8;
+    margin-bottom: 53px;
+}
