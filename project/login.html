@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <!-- Base -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./CSS/index.css">
+        <link rel="stylesheet" href="./CSS/login.css">
+
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+        <title>Janalyq</title>
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="header__leftside">
+                <a href="./index.html" class="header__logo">
+                    <h1 class="headerLogo">JANALYQ</h1>
+                </a>
+
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li>
+                            <a href="./index.html" class="header__nav-link header__nav-link--active" aria-current="page">Новости</a>
+                        </li>
+                        <li>
+                            <a href="./categories.html" class="header__nav-link">Категории</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header__auth">
+                <a href="./signup.html" class="button button-blue">Зарегистрироваться</a>
+            </div>
+        </header>
+
+        <!-- Main -->
+        <main>
+            <div class="login-window">
+                <h1 class="login-window__logo">JANALYQ</h1>
+
+                <div class="login-window__forms">
+                    <div class="login-window__email">
+                        <p class="login-window__forms-description">Email</p>
+                        <input type="email" class="login-window__form email-input" placeholder="Введите email" required>
+                    </div>
+                    <div class="login-window__password">
+                        <p class="login-window__forms-description">Пароль</p>
+                        <input type="password" class="login-window__form password-input" placeholder="Введите пароль" required>
+                    </div>
+                </div>
+
+                <a href="./index.html" class="button button-blue login-window__button">Войти</a>
+
+                <p class="login-window__signup">Нет аккаунта? <a href="./signup.html" class="login-window__signup-link">Зарегистрироваться</a></p>
+            </div>
+
+            <p class="login-window__signup forgot-pw">Забыли пароль? Ну не повезло :( <a href="https://youtu.be/y0sF5xhGreA?si=JYkOqrNU6N-ccNem" class="login-window__signup-link">   Вот видео с котятами</a> </p>
+        </main>
+
+    </body>
+</html>

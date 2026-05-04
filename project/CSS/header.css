@@ -1,0 +1,108 @@
+.header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    padding-top: calc(28 * 100vh / 1440);
+    padding-bottom: calc(28 * 100vh / 1440);
+    background-color: #fff;
+    width: calc(100vw - calc(48 * 100vw / 1440) * 2);
+    top: 0;
+
+}
+
+.header__leftside {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    gap: calc(48 * 100vw / 1440);
+}
+
+.header__nav {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.header__nav-list {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: calc(24* 100vw / 1440);
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.header__nav-list li {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.headerLogo {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: calc(32 * 100vw / 1440);
+    line-height: 125%;
+    letter-spacing: 0px;
+    color: #C1121F;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.header__nav-link--active {
+    background-color: #F0F0F0;
+    border-radius: calc(8 * 100vw / 1440);
+}
+
+.header__auth {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.header__nav-link {
+    align-self: center;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: calc(16 * 100vw / 1440);
+    line-height: 150%;
+    letter-spacing: 0px;
+    padding: calc(8 * 100vw / 1440) calc(24 * 100vw / 1440) calc(8 * 100vw / 1440) calc(24 * 100vw / 1440);
+}
+
+.button {
+    padding: calc(12 * 100vw / 1440) calc(24 * 100vw / 1440);
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: calc(16 * 100vw / 1440);
+    line-height: 150%;
+    letter-spacing: 0px;
+    border-radius: calc(8 * 100vw / 1440);
+    border: none;
+    justify-self: center;
+}
+
+.button-blue {
+    background-color: #0077B6;
+}
+
+.button-red {
+    background-color: #C1121F;
+}
+
+.button-small {
+    padding: calc(8 * 100vw / 1440) calc(16 * 100vw / 1440);
+    font-size: calc(14 * 100vw / 1440);
+}
