@@ -14,7 +14,7 @@ async function fetchAndRenderData() {
                 </div>
 
                 <div class="news-card__content">
-                    <a class="news-card__link" href="./news_id-1.html?id=${news.id}">
+                    <a class="news-card__link" href="./news.html?id=${news.id}">
                         <h2 class="news-card__title">${news.title}</h2>
                         <p class="news-card__attributes"> ${news.createdAt} | ${news.category.name ? news.category.name : 'Без категории'}</p>
                         <div class="user">
@@ -46,16 +46,50 @@ async function fetchAndRenderData() {
 
 
 
-// function setupActionButtons() {
-//     const authToken = localStorage.getItem('authToken');
+function setupActionButtons() {
+    const authToken = localStorage.getItem('authToken');
 
-//     const headerAuth = document.querySelector('.header__auth');
+    const headerAuth = document.querySelector('.header__auth');
 
-//     if (authToken) {
-//         headerAuth.innerHTML = `<a href="./login.html" class="button button-red">Выйти</a>`;
-//     }
+    if (authToken) {
+        headerAuth.innerHTML = `<a href="./login.html" class="button button-red">Выйти</a>`;
+    }
 
-//     document.querySelectorAll(
-// }
+    document.querySelectorAll(".news-card_actions .button-red").forEach(link => {
+        link.addEventListener('click', event => {
+            if (!authToken) {
+                event.preventDefault();
+                alert('Для этого действия необходима регистрация.');
+            }
+        });
+    });
 
-document.addEventListener('DOMContentLoaded', fetchAndRenderData);
+    document.querySelectorAll(".news-card_actions .button-red").forEach(button => {
+        button.addEventListener('click', () => {
+            if (!authToken) return alert('Для этого действия необходима регистрация.');
+            deleteNews(button.getAttribute("onclick").match(/\d+/)[0]); 
+        });
+    });
+
+    
+}
+
+function displayCreateButton() {
+    if (localStorage.getItem('authToken')) {
+        const createButton = document.createElement('a');
+        createButton.className = 'button button-green';
+        createButton.textContent = '+ Создать новость';
+        createButton.onclick = () => (window.location.href = "./create.html");
+        document.querySelector('.news-grid').before(createButton);
+    }
+}
+
+function logout() {
+    localStorage.removeItem('authToken');
+    window.location.reload();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    fetchAndRenderData();
+    displayCreateButton();
+});
