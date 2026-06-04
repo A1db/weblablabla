@@ -114,3 +114,18 @@ main {
     display: flex;
     gap: calc(8 * 100vw / 1440);
 }
+
+.button-green {
+    background-color: #52B788;
+    color: white;
+    border: none;
+    padding: calc(8 * 100vw / 1440) calc(16 * 100vw / 1440);
+    border-radius: calc(8 * 100vw / 1440);
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: calc(14 * 100vw / 1440);
+    line-height: 160%;
+    letter-spacing: 0px;
+    cursor: pointer;
+    margin-bottom: calc(16 * 100vw / 1440);
+}

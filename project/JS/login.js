@@ -1,11 +1,12 @@
-document.querySelector('login-window').addEventListener('submit', async (event) => {
+document.querySelector('.login-window').addEventListener('submit', async (event) => {
     event.preventDefault();
+    console.log('Форма отправлена');
 
     const email = document.querySelector('.email-input').value;
     const password = document.querySelector('.password-input').value;
 
     try {
-        const response = await fetch('https://webfinalapi.mobydev.kz/auth/login', {
+        const response = await fetch('https://webfinalapi.mobydev.kz/login', {
 
             method: 'POST',
             headers: {
@@ -16,6 +17,7 @@ document.querySelector('login-window').addEventListener('submit', async (event) 
         if (response.ok) {
             const {token} = await response.json();
             localStorage.setItem('authToken', token);
+            console.log("authToken:", token);
             window.location.href = 'index.html';
         } else {
             alert('Неверный email или пароль. Пожалуйста, попробуйте снова.');

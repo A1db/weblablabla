@@ -75,10 +75,10 @@ function setupActionButtons() {
 }
 
 function displayCreateButton() {
-    if (localStorage.getItem('authToken')) {
-        const createButton = document.createElement('a');
+    if (localStorage.getItem("authToken")) {
+        const createButton = document.createElement('button');
         createButton.className = 'button button-green';
-        createButton.textContent = '+ Создать новость';
+        createButton.textContent = "+ Создать новость";
         createButton.onclick = () => (window.location.href = "./create.html");
         document.querySelector('.news-grid').before(createButton);
     }
